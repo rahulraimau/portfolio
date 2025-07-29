@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: rahul-rai-portfolio
+    env: node
+    rootDir: rahul-rai-portfolio
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: GITHUB_TOKEN
+        value: YOUR_TOKEN_HERE
