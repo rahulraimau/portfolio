@@ -1,5 +1,4 @@
 
-import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
@@ -12,10 +11,6 @@ import Contact from '../components/Contact';
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Rahul Rai | Data Analyst Portfolio</title>
-        <meta name="description" content="Portfolio of Rahul Rai" />
-      </Head>
       <Navbar />
       <Hero />
       <About />
